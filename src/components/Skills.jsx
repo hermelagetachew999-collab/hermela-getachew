@@ -13,12 +13,19 @@ import {
   SiGithub,
   SiVite,
   SiMysql,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiPostgresql,
 } from "react-icons/si";
 
 export default function Skills() {
   const frontendSkills = [
     { name: "React", icon: <SiReact /> },
+    { name: "Next.js", icon: <SiNextdotjs /> },
+    { name: "TypeScript", icon: <SiTypescript /> },
     { name: "JavaScript", icon: <SiJavascript /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
     { name: "HTML", icon: <SiHtml5 /> },
     { name: "CSS", icon: <SiCss3 /> },
     { name: "Vite", icon: <SiVite /> },
@@ -30,7 +37,10 @@ export default function Skills() {
     { name: "Mongoose", icon: <SiMongoose /> },
   ];
 
-  const databaseSkills = [{ name: "MongoDB", icon: <SiMongodb /> }];
+  const databaseSkills = [
+    { name: "MongoDB", icon: <SiMongodb /> },
+    { name: "PostgreSQL", icon: <SiPostgresql /> },
+  ];
   // add MySQL skill
   databaseSkills.push({ name: "MySQL", icon: <SiMysql /> });
 

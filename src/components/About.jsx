@@ -40,7 +40,7 @@ export default function About() {
             marginBottom: "1rem",
             marginTop: "0.3rem",
             color: "#0b1f3b", // blue-black title
-             // soft blue-black glow
+            // soft blue-black glow
           }}
         >
           About Me
@@ -58,10 +58,10 @@ export default function About() {
               title: "💻 Skills & Certificates",
               text: "I enjoy blending technology to create interactive web experiences. My certifications reflect a deep commitment to growth and mastery in frontend and backend development, including Git and GitHub.",
             },
-            
+
             {
               title: "🏅 Certifications",
-              text: "I hold certificates in Responsive Web Design, JavaScript, Frontend Libraries, Data Visualization, Backend & API Development, and version control with Git and GitHub. I have strong skills in React, HTML, CSS, and modern web design.",
+              text: "I hold certificates in Responsive Web Design, JavaScript, Next.js, TypeScript, Tailwind CSS, Frontend Libraries, Data Visualization, Backend & API Development, and version control with Git and GitHub. I have strong skills in React, HTML, CSS, PostgreSQL, and modern web design.",
             },
           ].map((card, index) => (
             <div
