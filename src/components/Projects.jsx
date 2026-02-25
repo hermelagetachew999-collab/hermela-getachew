@@ -3,9 +3,16 @@ import { motion } from "framer-motion";
 import knowledgeHubImg from "../assets/knowledge-hub.jpg";
 import quickcartImg from "../assets/quickcart.jpg";
 import mystreamImg from "../assets/mystream.jpg";
+import invoiceGenImg from "../assets/invoice-gen.png";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "InvoiceGen",
+      description: "A professional invoice generator for freelancers to create, manage, and download PDF invoices.",
+      link: "https://invoice-generator-two-mocha.vercel.app",
+      image: invoiceGenImg,
+    },
     {
       title: "Smart Knowledge Hub",
       description: "An interactive platform for sharing and accessing educational resources and knowledge.",
